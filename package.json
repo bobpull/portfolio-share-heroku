@@ -8,8 +8,8 @@
     "test": "jest --setupFiles dotenv/config",
     "heroku-postbuild": "cd front && yarn install --only=dev && yarn install && yarn build"
   },
-  "engines":{
-    "node":"16.14.0"
+  "engines": {
+    "node": "16.14.0"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
     "jest": "^27.3.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.2.1",
+    "nodemailer": "^6.7.3",
     "supertest": "^6.1.6",
     "uuid": "^8.3.2"
   },
